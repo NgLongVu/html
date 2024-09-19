@@ -1,0 +1,21 @@
+h1 {
+  color: rgb(39, 104, 169);
+  background-color: rgb(183, 214, 248);
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table tr:nth-child(even) {
+  background-color: aliceblue;
+}
+mark {
+  background-color: rgb(255, 255, 255);
+  color: #054cd1;
+}
+body {
+  font-family:'Times New Roman', Times, serif
+  font-style: normal;
+}

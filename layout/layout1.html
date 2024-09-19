@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        flex-basis: 20%;
+        background-image: linear-gradient(#d3d1d1, white);
+      }
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: rgb(187, 187, 232);
+        height: 100px;
+      }
+      .left {
+        background-color: rgb(231, 178, 178);
+        float: left;
+        height: 450px;
+        width: 20%;
+      }
+      .main {
+        background-color: rgb(184, 224, 225);
+        float: left;
+        height: 450px;
+        width: 60%;
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+      .right {
+        background-color: rgb(229, 176, 176);
+        float: left;
+        height: 450px;
+        width: 20%;
+      }
+      ul {
+        list-style-type: none;
+        padding: 13px 0px;
+      }
+      .footer {
+        background-color: rgb(198, 246, 230);
+        height: 80px;
+        clear: both;
+      }
+      li:hover {
+        background-color: #2b3fc2;
+      }
+      li {
+        padding: 15px 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">header</div>
+      <div class="left">
+        <ul>
+          <li><p>Home</p></li>
+          <li><p>Product</p></li>
+          <li><p>Download</p></li>
+          <li><p>Contact</p></li>
+          <li><p>Other</p></li>
+        </ul>
+      </div>
+      <div class="main">main</div>
+      <div class="right">right</div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
